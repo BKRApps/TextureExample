@@ -7,33 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		01D52E4D9957EFB8BF50FB7A /* Pods_TextureExampleProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 505D24B7A7DB7538510205F0 /* Pods_TextureExampleProject.framework */; };
 		F071F0C42267E79F00C59064 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F071F0C32267E79F00C59064 /* AppDelegate.swift */; };
 		F071F0C62267E79F00C59064 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F071F0C52267E79F00C59064 /* ViewController.swift */; };
 		F071F0C92267E79F00C59064 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F071F0C72267E79F00C59064 /* Main.storyboard */; };
 		F071F0CB2267E7A100C59064 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F071F0CA2267E7A100C59064 /* Assets.xcassets */; };
 		F071F0CE2267E7A100C59064 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F071F0CC2267E7A100C59064 /* LaunchScreen.storyboard */; };
-		F071F0D92267E7A100C59064 /* TextureExampleProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F071F0D82267E7A100C59064 /* TextureExampleProjectTests.swift */; };
-		F071F0E42267E7A100C59064 /* TextureExampleProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F071F0E32267E7A100C59064 /* TextureExampleProjectUITests.swift */; };
+		F071F0F22267F1D100C59064 /* RestaurantModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F071F0F12267F1D100C59064 /* RestaurantModel.swift */; };
+		F071F0F42267F1F900C59064 /* ASRestaurantNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = F071F0F32267F1F900C59064 /* ASRestaurantNode.swift */; };
+		F071F0F62267F22400C59064 /* SwTextNodeAttributedTextBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = F071F0F52267F22400C59064 /* SwTextNodeAttributedTextBuilder.swift */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		F071F0D52267E7A100C59064 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = F071F0B82267E79F00C59064 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = F071F0BF2267E79F00C59064;
-			remoteInfo = TextureExampleProject;
-		};
-		F071F0E02267E7A100C59064 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = F071F0B82267E79F00C59064 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = F071F0BF2267E79F00C59064;
-			remoteInfo = TextureExampleProject;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
+		0DDADE33B89EA27A1316ADCF /* Pods_TextureExampleProjectUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TextureExampleProjectUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		505D24B7A7DB7538510205F0 /* Pods_TextureExampleProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TextureExampleProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5758F759DB66A3B4BBC05172 /* Pods-TextureExampleProjectUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TextureExampleProjectUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TextureExampleProjectUITests/Pods-TextureExampleProjectUITests.release.xcconfig"; sourceTree = "<group>"; };
+		615986C95BC173639794607D /* Pods-TextureExampleProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TextureExampleProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-TextureExampleProject/Pods-TextureExampleProject.release.xcconfig"; sourceTree = "<group>"; };
+		6FB8DFBD126457AEBA100A72 /* Pods_TextureExampleProjectTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TextureExampleProjectTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D4AA315B353D5C0F7F8D705 /* Pods-TextureExampleProjectTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TextureExampleProjectTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TextureExampleProjectTests/Pods-TextureExampleProjectTests.release.xcconfig"; sourceTree = "<group>"; };
+		8F052FD70088B10B1E955D02 /* Pods-TextureExampleProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TextureExampleProject.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TextureExampleProject/Pods-TextureExampleProject.debug.xcconfig"; sourceTree = "<group>"; };
+		B10136374430734B70E577E7 /* Pods-TextureExampleProjectTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TextureExampleProjectTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TextureExampleProjectTests/Pods-TextureExampleProjectTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C5A192D0461B88442E3DD691 /* Pods-TextureExampleProjectUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TextureExampleProjectUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TextureExampleProjectUITests/Pods-TextureExampleProjectUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		F071F0C02267E79F00C59064 /* TextureExampleProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TextureExampleProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F071F0C32267E79F00C59064 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F071F0C52267E79F00C59064 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -41,12 +35,9 @@
 		F071F0CA2267E7A100C59064 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F071F0CD2267E7A100C59064 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F071F0CF2267E7A100C59064 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F071F0D42267E7A100C59064 /* TextureExampleProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TextureExampleProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		F071F0D82267E7A100C59064 /* TextureExampleProjectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextureExampleProjectTests.swift; sourceTree = "<group>"; };
-		F071F0DA2267E7A100C59064 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F071F0DF2267E7A100C59064 /* TextureExampleProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TextureExampleProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		F071F0E32267E7A100C59064 /* TextureExampleProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextureExampleProjectUITests.swift; sourceTree = "<group>"; };
-		F071F0E52267E7A100C59064 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F071F0F12267F1D100C59064 /* RestaurantModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantModel.swift; sourceTree = "<group>"; };
+		F071F0F32267F1F900C59064 /* ASRestaurantNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ASRestaurantNode.swift; sourceTree = "<group>"; };
+		F071F0F52267F22400C59064 /* SwTextNodeAttributedTextBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwTextNodeAttributedTextBuilder.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,33 +45,43 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F071F0D12267E7A100C59064 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F071F0DC2267E7A100C59064 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				01D52E4D9957EFB8BF50FB7A /* Pods_TextureExampleProject.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6273748B9A11C3ADAF39DDFA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				505D24B7A7DB7538510205F0 /* Pods_TextureExampleProject.framework */,
+				6FB8DFBD126457AEBA100A72 /* Pods_TextureExampleProjectTests.framework */,
+				0DDADE33B89EA27A1316ADCF /* Pods_TextureExampleProjectUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B0671FE4878129331BCB471F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8F052FD70088B10B1E955D02 /* Pods-TextureExampleProject.debug.xcconfig */,
+				615986C95BC173639794607D /* Pods-TextureExampleProject.release.xcconfig */,
+				B10136374430734B70E577E7 /* Pods-TextureExampleProjectTests.debug.xcconfig */,
+				8D4AA315B353D5C0F7F8D705 /* Pods-TextureExampleProjectTests.release.xcconfig */,
+				C5A192D0461B88442E3DD691 /* Pods-TextureExampleProjectUITests.debug.xcconfig */,
+				5758F759DB66A3B4BBC05172 /* Pods-TextureExampleProjectUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		F071F0B72267E79F00C59064 = {
 			isa = PBXGroup;
 			children = (
 				F071F0C22267E79F00C59064 /* TextureExampleProject */,
-				F071F0D72267E7A100C59064 /* TextureExampleProjectTests */,
-				F071F0E22267E7A100C59064 /* TextureExampleProjectUITests */,
 				F071F0C12267E79F00C59064 /* Products */,
+				B0671FE4878129331BCB471F /* Pods */,
+				6273748B9A11C3ADAF39DDFA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -88,8 +89,6 @@
 			isa = PBXGroup;
 			children = (
 				F071F0C02267E79F00C59064 /* TextureExampleProject.app */,
-				F071F0D42267E7A100C59064 /* TextureExampleProjectTests.xctest */,
-				F071F0DF2267E7A100C59064 /* TextureExampleProjectUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -103,26 +102,11 @@
 				F071F0CA2267E7A100C59064 /* Assets.xcassets */,
 				F071F0CC2267E7A100C59064 /* LaunchScreen.storyboard */,
 				F071F0CF2267E7A100C59064 /* Info.plist */,
+				F071F0F12267F1D100C59064 /* RestaurantModel.swift */,
+				F071F0F32267F1F900C59064 /* ASRestaurantNode.swift */,
+				F071F0F52267F22400C59064 /* SwTextNodeAttributedTextBuilder.swift */,
 			);
 			path = TextureExampleProject;
-			sourceTree = "<group>";
-		};
-		F071F0D72267E7A100C59064 /* TextureExampleProjectTests */ = {
-			isa = PBXGroup;
-			children = (
-				F071F0D82267E7A100C59064 /* TextureExampleProjectTests.swift */,
-				F071F0DA2267E7A100C59064 /* Info.plist */,
-			);
-			path = TextureExampleProjectTests;
-			sourceTree = "<group>";
-		};
-		F071F0E22267E7A100C59064 /* TextureExampleProjectUITests */ = {
-			isa = PBXGroup;
-			children = (
-				F071F0E32267E7A100C59064 /* TextureExampleProjectUITests.swift */,
-				F071F0E52267E7A100C59064 /* Info.plist */,
-			);
-			path = TextureExampleProjectUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -132,9 +116,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F071F0E82267E7A100C59064 /* Build configuration list for PBXNativeTarget "TextureExampleProject" */;
 			buildPhases = (
+				50BA342CEB497B3EECD56A10 /* [CP] Check Pods Manifest.lock */,
 				F071F0BC2267E79F00C59064 /* Sources */,
 				F071F0BD2267E79F00C59064 /* Frameworks */,
 				F071F0BE2267E79F00C59064 /* Resources */,
+				9488988F6500EB5F77329311 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -144,42 +130,6 @@
 			productName = TextureExampleProject;
 			productReference = F071F0C02267E79F00C59064 /* TextureExampleProject.app */;
 			productType = "com.apple.product-type.application";
-		};
-		F071F0D32267E7A100C59064 /* TextureExampleProjectTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = F071F0EB2267E7A100C59064 /* Build configuration list for PBXNativeTarget "TextureExampleProjectTests" */;
-			buildPhases = (
-				F071F0D02267E7A100C59064 /* Sources */,
-				F071F0D12267E7A100C59064 /* Frameworks */,
-				F071F0D22267E7A100C59064 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				F071F0D62267E7A100C59064 /* PBXTargetDependency */,
-			);
-			name = TextureExampleProjectTests;
-			productName = TextureExampleProjectTests;
-			productReference = F071F0D42267E7A100C59064 /* TextureExampleProjectTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		F071F0DE2267E7A100C59064 /* TextureExampleProjectUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = F071F0EE2267E7A100C59064 /* Build configuration list for PBXNativeTarget "TextureExampleProjectUITests" */;
-			buildPhases = (
-				F071F0DB2267E7A100C59064 /* Sources */,
-				F071F0DC2267E7A100C59064 /* Frameworks */,
-				F071F0DD2267E7A100C59064 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				F071F0E12267E7A100C59064 /* PBXTargetDependency */,
-			);
-			name = TextureExampleProjectUITests;
-			productName = TextureExampleProjectUITests;
-			productReference = F071F0DF2267E7A100C59064 /* TextureExampleProjectUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
@@ -193,14 +143,6 @@
 				TargetAttributes = {
 					F071F0BF2267E79F00C59064 = {
 						CreatedOnToolsVersion = 10.2;
-					};
-					F071F0D32267E7A100C59064 = {
-						CreatedOnToolsVersion = 10.2;
-						TestTargetID = F071F0BF2267E79F00C59064;
-					};
-					F071F0DE2267E7A100C59064 = {
-						CreatedOnToolsVersion = 10.2;
-						TestTargetID = F071F0BF2267E79F00C59064;
 					};
 				};
 			};
@@ -218,8 +160,6 @@
 			projectRoot = "";
 			targets = (
 				F071F0BF2267E79F00C59064 /* TextureExampleProject */,
-				F071F0D32267E7A100C59064 /* TextureExampleProjectTests */,
-				F071F0DE2267E7A100C59064 /* TextureExampleProjectUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -235,62 +175,75 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F071F0D22267E7A100C59064 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F071F0DD2267E7A100C59064 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		50BA342CEB497B3EECD56A10 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TextureExampleProject-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9488988F6500EB5F77329311 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-TextureExampleProject/Pods-TextureExampleProject-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/PINCache/PINCache.framework",
+				"${BUILT_PRODUCTS_DIR}/PINOperation/PINOperation.framework",
+				"${BUILT_PRODUCTS_DIR}/PINRemoteImage/PINRemoteImage.framework",
+				"${BUILT_PRODUCTS_DIR}/Texture/AsyncDisplayKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PINCache.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PINOperation.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PINRemoteImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AsyncDisplayKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TextureExampleProject/Pods-TextureExampleProject-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		F071F0BC2267E79F00C59064 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F071F0F42267F1F900C59064 /* ASRestaurantNode.swift in Sources */,
 				F071F0C62267E79F00C59064 /* ViewController.swift in Sources */,
+				F071F0F22267F1D100C59064 /* RestaurantModel.swift in Sources */,
 				F071F0C42267E79F00C59064 /* AppDelegate.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F071F0D02267E7A100C59064 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F071F0D92267E7A100C59064 /* TextureExampleProjectTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F071F0DB2267E7A100C59064 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F071F0E42267E7A100C59064 /* TextureExampleProjectUITests.swift in Sources */,
+				F071F0F62267F22400C59064 /* SwTextNodeAttributedTextBuilder.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		F071F0D62267E7A100C59064 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = F071F0BF2267E79F00C59064 /* TextureExampleProject */;
-			targetProxy = F071F0D52267E7A100C59064 /* PBXContainerItemProxy */;
-		};
-		F071F0E12267E7A100C59064 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = F071F0BF2267E79F00C59064 /* TextureExampleProject */;
-			targetProxy = F071F0E02267E7A100C59064 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		F071F0C72267E79F00C59064 /* Main.storyboard */ = {
@@ -430,6 +383,7 @@
 		};
 		F071F0E92267E7A100C59064 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8F052FD70088B10B1E955D02 /* Pods-TextureExampleProject.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -448,6 +402,7 @@
 		};
 		F071F0EA2267E7A100C59064 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 615986C95BC173639794607D /* Pods-TextureExampleProject.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -461,88 +416,6 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		F071F0EC2267E7A100C59064 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = C8STGDD3H7;
-				INFOPLIST_FILE = TextureExampleProjectTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.texture.example.TextureExampleProjectTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TextureExampleProject.app/TextureExampleProject";
-			};
-			name = Debug;
-		};
-		F071F0ED2267E7A100C59064 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = C8STGDD3H7;
-				INFOPLIST_FILE = TextureExampleProjectTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.texture.example.TextureExampleProjectTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TextureExampleProject.app/TextureExampleProject";
-			};
-			name = Release;
-		};
-		F071F0EF2267E7A100C59064 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = C8STGDD3H7;
-				INFOPLIST_FILE = TextureExampleProjectUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.texture.example.TextureExampleProjectUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = TextureExampleProject;
-			};
-			name = Debug;
-		};
-		F071F0F02267E7A100C59064 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = C8STGDD3H7;
-				INFOPLIST_FILE = TextureExampleProjectUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.texture.example.TextureExampleProjectUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = TextureExampleProject;
 			};
 			name = Release;
 		};
@@ -563,24 +436,6 @@
 			buildConfigurations = (
 				F071F0E92267E7A100C59064 /* Debug */,
 				F071F0EA2267E7A100C59064 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		F071F0EB2267E7A100C59064 /* Build configuration list for PBXNativeTarget "TextureExampleProjectTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				F071F0EC2267E7A100C59064 /* Debug */,
-				F071F0ED2267E7A100C59064 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		F071F0EE2267E7A100C59064 /* Build configuration list for PBXNativeTarget "TextureExampleProjectUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				F071F0EF2267E7A100C59064 /* Debug */,
-				F071F0F02267E7A100C59064 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
